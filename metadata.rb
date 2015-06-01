@@ -7,3 +7,5 @@ long_description 'Installs/Configures et_chef_stale_bot'
 version          '0.0.1'
 
 supports 'ubuntu', '>= 12.04'
+
+depends 'chef_stale_bot'

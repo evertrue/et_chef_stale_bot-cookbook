@@ -17,4 +17,7 @@
 # limitations under the License.
 
 node.set['chef_stale_bot']['environment']['CHEF_BOT_SLACK_HOOK'] =
- data_bag_item('secrets', 'api_keys')['slack_webhook_url']
+  data_bag_item('secrets', 'api_keys')['slack_webhook_url']
+
+node.set['chef_stale_bot']['environment']['CHEF_SERVER_ENDPOINT'] =
+  'https://api.opscode.com/organizations/evertrue'
