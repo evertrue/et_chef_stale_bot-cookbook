@@ -21,3 +21,5 @@ node.set['chef_stale_bot']['environment']['CHEF_BOT_SLACK_HOOK'] =
 
 node.set['chef_stale_bot']['environment']['CHEF_SERVER_ENDPOINT'] =
   'https://api.opscode.com/organizations/evertrue'
+
+include_recipe 'chef_stale_bot'
